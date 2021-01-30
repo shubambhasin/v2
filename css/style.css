@@ -1,0 +1,41 @@
+:root
+{
+    --primary-color: rgb(0, 174, 255);
+    --bgColor: rgb(247, 247, 247);
+}
+
+body
+{
+
+    margin: 0;
+    padding: 0;
+    margin-inline-start: 0;
+
+}
+
+.main-container
+{
+
+    display: flex;
+    height: 100vh;
+
+}
+.side-bar
+{
+
+    background-color: var(--primary-color);
+    flex-shrink: 1;
+
+}
+.main-section
+{
+
+    width: 80%;
+    flex-shrink: 2;
+    
+}
+.main-section .cover img
+{
+    background-size: cover;
+    
+}
